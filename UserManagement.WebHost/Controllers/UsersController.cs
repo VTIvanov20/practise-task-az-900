@@ -33,7 +33,7 @@ public class UsersController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> AddUsersAsync()
     {
-        var username = "Your username in lower case. Ex: ssivanov19";
+        var username = "vtivanov20";
 
         await this.userService.AddUserAsync(new UserIM { Username = "Dani" });
         await this.userService.AddUserAsync(new UserIM { Username = "Toni" });
